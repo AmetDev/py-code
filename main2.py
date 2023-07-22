@@ -18,6 +18,8 @@ while i <= n:
     time.sleep(5)
     pg.leftClick(112, 48)
     time.sleep(2)
+    pg.hotkey("ctrl", "v")
+    time.sleep(2)
     pg.leftClick(180, 107)
     time.sleep(2)
     pg.leftClick(710, 838)
